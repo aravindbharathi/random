@@ -1,0 +1,1433 @@
+|ALU
+A[0] => comp_add:Addstep.X[0]
+A[0] => comp_add:Substep.X[0]
+A[0] => comp_nand:Nstep.X[0]
+A[0] => comp_xor:Xstep.X[0]
+A[1] => comp_add:Addstep.X[1]
+A[1] => comp_add:Substep.X[1]
+A[1] => comp_nand:Nstep.X[1]
+A[1] => comp_xor:Xstep.X[1]
+A[2] => comp_add:Addstep.X[2]
+A[2] => comp_add:Substep.X[2]
+A[2] => comp_nand:Nstep.X[2]
+A[2] => comp_xor:Xstep.X[2]
+A[3] => comp_add:Addstep.X[3]
+A[3] => comp_add:Substep.X[3]
+A[3] => comp_nand:Nstep.X[3]
+A[3] => comp_xor:Xstep.X[3]
+A[4] => comp_add:Addstep.X[4]
+A[4] => comp_add:Substep.X[4]
+A[4] => comp_nand:Nstep.X[4]
+A[4] => comp_xor:Xstep.X[4]
+A[5] => comp_add:Addstep.X[5]
+A[5] => comp_add:Substep.X[5]
+A[5] => comp_nand:Nstep.X[5]
+A[5] => comp_xor:Xstep.X[5]
+A[6] => comp_add:Addstep.X[6]
+A[6] => comp_add:Substep.X[6]
+A[6] => comp_nand:Nstep.X[6]
+A[6] => comp_xor:Xstep.X[6]
+A[7] => comp_add:Addstep.X[7]
+A[7] => comp_add:Substep.X[7]
+A[7] => comp_nand:Nstep.X[7]
+A[7] => comp_xor:Xstep.X[7]
+A[8] => comp_add:Addstep.X[8]
+A[8] => comp_add:Substep.X[8]
+A[8] => comp_nand:Nstep.X[8]
+A[8] => comp_xor:Xstep.X[8]
+A[9] => comp_add:Addstep.X[9]
+A[9] => comp_add:Substep.X[9]
+A[9] => comp_nand:Nstep.X[9]
+A[9] => comp_xor:Xstep.X[9]
+A[10] => comp_add:Addstep.X[10]
+A[10] => comp_add:Substep.X[10]
+A[10] => comp_nand:Nstep.X[10]
+A[10] => comp_xor:Xstep.X[10]
+A[11] => comp_add:Addstep.X[11]
+A[11] => comp_add:Substep.X[11]
+A[11] => comp_nand:Nstep.X[11]
+A[11] => comp_xor:Xstep.X[11]
+A[12] => comp_add:Addstep.X[12]
+A[12] => comp_add:Substep.X[12]
+A[12] => comp_nand:Nstep.X[12]
+A[12] => comp_xor:Xstep.X[12]
+A[13] => comp_add:Addstep.X[13]
+A[13] => comp_add:Substep.X[13]
+A[13] => comp_nand:Nstep.X[13]
+A[13] => comp_xor:Xstep.X[13]
+A[14] => comp_add:Addstep.X[14]
+A[14] => comp_add:Substep.X[14]
+A[14] => comp_nand:Nstep.X[14]
+A[14] => comp_xor:Xstep.X[14]
+A[15] => comp_add:Addstep.X[15]
+A[15] => comp_add:Substep.X[15]
+A[15] => comp_nand:Nstep.X[15]
+A[15] => comp_xor:Xstep.X[15]
+B[0] => comp_add:Addstep.Y[0]
+B[0] => comp_add:Substep.Y[0]
+B[0] => comp_nand:Nstep.Y[0]
+B[0] => comp_xor:Xstep.Y[0]
+B[1] => comp_add:Addstep.Y[1]
+B[1] => comp_add:Substep.Y[1]
+B[1] => comp_nand:Nstep.Y[1]
+B[1] => comp_xor:Xstep.Y[1]
+B[2] => comp_add:Addstep.Y[2]
+B[2] => comp_add:Substep.Y[2]
+B[2] => comp_nand:Nstep.Y[2]
+B[2] => comp_xor:Xstep.Y[2]
+B[3] => comp_add:Addstep.Y[3]
+B[3] => comp_add:Substep.Y[3]
+B[3] => comp_nand:Nstep.Y[3]
+B[3] => comp_xor:Xstep.Y[3]
+B[4] => comp_add:Addstep.Y[4]
+B[4] => comp_add:Substep.Y[4]
+B[4] => comp_nand:Nstep.Y[4]
+B[4] => comp_xor:Xstep.Y[4]
+B[5] => comp_add:Addstep.Y[5]
+B[5] => comp_add:Substep.Y[5]
+B[5] => comp_nand:Nstep.Y[5]
+B[5] => comp_xor:Xstep.Y[5]
+B[6] => comp_add:Addstep.Y[6]
+B[6] => comp_add:Substep.Y[6]
+B[6] => comp_nand:Nstep.Y[6]
+B[6] => comp_xor:Xstep.Y[6]
+B[7] => comp_add:Addstep.Y[7]
+B[7] => comp_add:Substep.Y[7]
+B[7] => comp_nand:Nstep.Y[7]
+B[7] => comp_xor:Xstep.Y[7]
+B[8] => comp_add:Addstep.Y[8]
+B[8] => comp_add:Substep.Y[8]
+B[8] => comp_nand:Nstep.Y[8]
+B[8] => comp_xor:Xstep.Y[8]
+B[9] => comp_add:Addstep.Y[9]
+B[9] => comp_add:Substep.Y[9]
+B[9] => comp_nand:Nstep.Y[9]
+B[9] => comp_xor:Xstep.Y[9]
+B[10] => comp_add:Addstep.Y[10]
+B[10] => comp_add:Substep.Y[10]
+B[10] => comp_nand:Nstep.Y[10]
+B[10] => comp_xor:Xstep.Y[10]
+B[11] => comp_add:Addstep.Y[11]
+B[11] => comp_add:Substep.Y[11]
+B[11] => comp_nand:Nstep.Y[11]
+B[11] => comp_xor:Xstep.Y[11]
+B[12] => comp_add:Addstep.Y[12]
+B[12] => comp_add:Substep.Y[12]
+B[12] => comp_nand:Nstep.Y[12]
+B[12] => comp_xor:Xstep.Y[12]
+B[13] => comp_add:Addstep.Y[13]
+B[13] => comp_add:Substep.Y[13]
+B[13] => comp_nand:Nstep.Y[13]
+B[13] => comp_xor:Xstep.Y[13]
+B[14] => comp_add:Addstep.Y[14]
+B[14] => comp_add:Substep.Y[14]
+B[14] => comp_nand:Nstep.Y[14]
+B[14] => comp_xor:Xstep.Y[14]
+B[15] => comp_add:Addstep.Y[15]
+B[15] => comp_add:Substep.Y[15]
+B[15] => comp_nand:Nstep.Y[15]
+B[15] => comp_xor:Xstep.Y[15]
+S1 => mux:Mstep.Sel1
+S1 => mux2:M2step.Sel1
+S0 => mux:Mstep.Sel0
+S0 => mux2:M2step.Sel0
+Z <= comp_zero:Zstep.Y
+C <= mux2:M2step.Y
+R[0] <> R[0]
+R[1] <> R[1]
+R[2] <> R[2]
+R[3] <> R[3]
+R[4] <> R[4]
+R[5] <> R[5]
+R[6] <> R[6]
+R[7] <> R[7]
+R[8] <> R[8]
+R[9] <> R[9]
+R[10] <> R[10]
+R[11] <> R[11]
+R[12] <> R[12]
+R[13] <> R[13]
+R[14] <> R[14]
+R[15] <> R[15]
+
+
+|ALU|comp_add:Addstep
+X[1] => G[1].IN0
+X[1] => P[1].IN0
+X[2] => G[2].IN0
+X[2] => P[2].IN0
+X[3] => G[3].IN0
+X[3] => P[3].IN0
+X[4] => G[4].IN0
+X[4] => P[4].IN0
+X[5] => G[5].IN0
+X[5] => P[5].IN0
+X[6] => G[6].IN0
+X[6] => P[6].IN0
+X[7] => G[7].IN0
+X[7] => P[7].IN0
+X[8] => G[8].IN0
+X[8] => P[8].IN0
+X[9] => G[9].IN0
+X[9] => P[9].IN0
+X[10] => G[10].IN0
+X[10] => P[10].IN0
+X[11] => G[11].IN0
+X[11] => P[11].IN0
+X[12] => G[12].IN0
+X[12] => P[12].IN0
+X[13] => G[13].IN0
+X[13] => P[13].IN0
+X[14] => G[14].IN0
+X[14] => P[14].IN0
+X[15] => G[15].IN0
+X[15] => P[15].IN0
+X[16] => G[16].IN0
+X[16] => P[16].IN0
+Y[1] => G[1].IN1
+Y[1] => P[1].IN1
+Y[2] => G[2].IN1
+Y[2] => P[2].IN1
+Y[3] => G[3].IN1
+Y[3] => P[3].IN1
+Y[4] => G[4].IN1
+Y[4] => P[4].IN1
+Y[5] => G[5].IN1
+Y[5] => P[5].IN1
+Y[6] => G[6].IN1
+Y[6] => P[6].IN1
+Y[7] => G[7].IN1
+Y[7] => P[7].IN1
+Y[8] => G[8].IN1
+Y[8] => P[8].IN1
+Y[9] => G[9].IN1
+Y[9] => P[9].IN1
+Y[10] => G[10].IN1
+Y[10] => P[10].IN1
+Y[11] => G[11].IN1
+Y[11] => P[11].IN1
+Y[12] => G[12].IN1
+Y[12] => P[12].IN1
+Y[13] => G[13].IN1
+Y[13] => P[13].IN1
+Y[14] => G[14].IN1
+Y[14] => P[14].IN1
+Y[15] => G[15].IN1
+Y[15] => P[15].IN1
+Y[16] => G[16].IN1
+Y[16] => P[16].IN1
+O[0] <= P[1].DB_MAX_OUTPUT_PORT_TYPE
+O[1] <= O.DB_MAX_OUTPUT_PORT_TYPE
+O[2] <= O.DB_MAX_OUTPUT_PORT_TYPE
+O[3] <= O.DB_MAX_OUTPUT_PORT_TYPE
+O[4] <= O.DB_MAX_OUTPUT_PORT_TYPE
+O[5] <= O.DB_MAX_OUTPUT_PORT_TYPE
+O[6] <= O.DB_MAX_OUTPUT_PORT_TYPE
+O[7] <= O.DB_MAX_OUTPUT_PORT_TYPE
+O[8] <= O.DB_MAX_OUTPUT_PORT_TYPE
+O[9] <= O.DB_MAX_OUTPUT_PORT_TYPE
+O[10] <= O.DB_MAX_OUTPUT_PORT_TYPE
+O[11] <= O.DB_MAX_OUTPUT_PORT_TYPE
+O[12] <= O.DB_MAX_OUTPUT_PORT_TYPE
+O[13] <= O.DB_MAX_OUTPUT_PORT_TYPE
+O[14] <= O.DB_MAX_OUTPUT_PORT_TYPE
+O[15] <= O.DB_MAX_OUTPUT_PORT_TYPE
+Carryout <= Carryout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|comp_add:Addstep|GG:KS_11
+Gk => Gij.IN1
+Pk => Gij.IN0
+Gj => Gij.IN1
+Gij <= Gij.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|comp_add:Addstep|GPGG:KS_12
+Gk => Gij.IN1
+Pk => Gij.IN0
+Pk => Pij.IN0
+Gj => Gij.IN1
+Pj => Pij.IN1
+Gij <= Gij.DB_MAX_OUTPUT_PORT_TYPE
+Pij <= Pij.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|comp_add:Addstep|GPGG:KS_13
+Gk => Gij.IN1
+Pk => Gij.IN0
+Pk => Pij.IN0
+Gj => Gij.IN1
+Pj => Pij.IN1
+Gij <= Gij.DB_MAX_OUTPUT_PORT_TYPE
+Pij <= Pij.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|comp_add:Addstep|GPGG:KS_14
+Gk => Gij.IN1
+Pk => Gij.IN0
+Pk => Pij.IN0
+Gj => Gij.IN1
+Pj => Pij.IN1
+Gij <= Gij.DB_MAX_OUTPUT_PORT_TYPE
+Pij <= Pij.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|comp_add:Addstep|GPGG:KS_15
+Gk => Gij.IN1
+Pk => Gij.IN0
+Pk => Pij.IN0
+Gj => Gij.IN1
+Pj => Pij.IN1
+Gij <= Gij.DB_MAX_OUTPUT_PORT_TYPE
+Pij <= Pij.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|comp_add:Addstep|GPGG:KS_16
+Gk => Gij.IN1
+Pk => Gij.IN0
+Pk => Pij.IN0
+Gj => Gij.IN1
+Pj => Pij.IN1
+Gij <= Gij.DB_MAX_OUTPUT_PORT_TYPE
+Pij <= Pij.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|comp_add:Addstep|GPGG:KS_17
+Gk => Gij.IN1
+Pk => Gij.IN0
+Pk => Pij.IN0
+Gj => Gij.IN1
+Pj => Pij.IN1
+Gij <= Gij.DB_MAX_OUTPUT_PORT_TYPE
+Pij <= Pij.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|comp_add:Addstep|GPGG:KS_18
+Gk => Gij.IN1
+Pk => Gij.IN0
+Pk => Pij.IN0
+Gj => Gij.IN1
+Pj => Pij.IN1
+Gij <= Gij.DB_MAX_OUTPUT_PORT_TYPE
+Pij <= Pij.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|comp_add:Addstep|GPGG:KS_19
+Gk => Gij.IN1
+Pk => Gij.IN0
+Pk => Pij.IN0
+Gj => Gij.IN1
+Pj => Pij.IN1
+Gij <= Gij.DB_MAX_OUTPUT_PORT_TYPE
+Pij <= Pij.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|comp_add:Addstep|GPGG:KS_110
+Gk => Gij.IN1
+Pk => Gij.IN0
+Pk => Pij.IN0
+Gj => Gij.IN1
+Pj => Pij.IN1
+Gij <= Gij.DB_MAX_OUTPUT_PORT_TYPE
+Pij <= Pij.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|comp_add:Addstep|GPGG:KS_111
+Gk => Gij.IN1
+Pk => Gij.IN0
+Pk => Pij.IN0
+Gj => Gij.IN1
+Pj => Pij.IN1
+Gij <= Gij.DB_MAX_OUTPUT_PORT_TYPE
+Pij <= Pij.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|comp_add:Addstep|GPGG:KS_112
+Gk => Gij.IN1
+Pk => Gij.IN0
+Pk => Pij.IN0
+Gj => Gij.IN1
+Pj => Pij.IN1
+Gij <= Gij.DB_MAX_OUTPUT_PORT_TYPE
+Pij <= Pij.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|comp_add:Addstep|GPGG:KS_113
+Gk => Gij.IN1
+Pk => Gij.IN0
+Pk => Pij.IN0
+Gj => Gij.IN1
+Pj => Pij.IN1
+Gij <= Gij.DB_MAX_OUTPUT_PORT_TYPE
+Pij <= Pij.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|comp_add:Addstep|GPGG:KS_114
+Gk => Gij.IN1
+Pk => Gij.IN0
+Pk => Pij.IN0
+Gj => Gij.IN1
+Pj => Pij.IN1
+Gij <= Gij.DB_MAX_OUTPUT_PORT_TYPE
+Pij <= Pij.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|comp_add:Addstep|GPGG:KS_115
+Gk => Gij.IN1
+Pk => Gij.IN0
+Pk => Pij.IN0
+Gj => Gij.IN1
+Pj => Pij.IN1
+Gij <= Gij.DB_MAX_OUTPUT_PORT_TYPE
+Pij <= Pij.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|comp_add:Addstep|GG:KS_22
+Gk => Gij.IN1
+Pk => Gij.IN0
+Gj => Gij.IN1
+Gij <= Gij.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|comp_add:Addstep|GG:KS_23
+Gk => Gij.IN1
+Pk => Gij.IN0
+Gj => Gij.IN1
+Gij <= Gij.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|comp_add:Addstep|GPGG:KS_24
+Gk => Gij.IN1
+Pk => Gij.IN0
+Pk => Pij.IN0
+Gj => Gij.IN1
+Pj => Pij.IN1
+Gij <= Gij.DB_MAX_OUTPUT_PORT_TYPE
+Pij <= Pij.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|comp_add:Addstep|GPGG:KS_25
+Gk => Gij.IN1
+Pk => Gij.IN0
+Pk => Pij.IN0
+Gj => Gij.IN1
+Pj => Pij.IN1
+Gij <= Gij.DB_MAX_OUTPUT_PORT_TYPE
+Pij <= Pij.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|comp_add:Addstep|GPGG:KS_26
+Gk => Gij.IN1
+Pk => Gij.IN0
+Pk => Pij.IN0
+Gj => Gij.IN1
+Pj => Pij.IN1
+Gij <= Gij.DB_MAX_OUTPUT_PORT_TYPE
+Pij <= Pij.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|comp_add:Addstep|GPGG:KS_27
+Gk => Gij.IN1
+Pk => Gij.IN0
+Pk => Pij.IN0
+Gj => Gij.IN1
+Pj => Pij.IN1
+Gij <= Gij.DB_MAX_OUTPUT_PORT_TYPE
+Pij <= Pij.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|comp_add:Addstep|GPGG:KS_28
+Gk => Gij.IN1
+Pk => Gij.IN0
+Pk => Pij.IN0
+Gj => Gij.IN1
+Pj => Pij.IN1
+Gij <= Gij.DB_MAX_OUTPUT_PORT_TYPE
+Pij <= Pij.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|comp_add:Addstep|GPGG:KS_29
+Gk => Gij.IN1
+Pk => Gij.IN0
+Pk => Pij.IN0
+Gj => Gij.IN1
+Pj => Pij.IN1
+Gij <= Gij.DB_MAX_OUTPUT_PORT_TYPE
+Pij <= Pij.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|comp_add:Addstep|GPGG:KS_210
+Gk => Gij.IN1
+Pk => Gij.IN0
+Pk => Pij.IN0
+Gj => Gij.IN1
+Pj => Pij.IN1
+Gij <= Gij.DB_MAX_OUTPUT_PORT_TYPE
+Pij <= Pij.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|comp_add:Addstep|GPGG:KS_211
+Gk => Gij.IN1
+Pk => Gij.IN0
+Pk => Pij.IN0
+Gj => Gij.IN1
+Pj => Pij.IN1
+Gij <= Gij.DB_MAX_OUTPUT_PORT_TYPE
+Pij <= Pij.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|comp_add:Addstep|GPGG:KS_212
+Gk => Gij.IN1
+Pk => Gij.IN0
+Pk => Pij.IN0
+Gj => Gij.IN1
+Pj => Pij.IN1
+Gij <= Gij.DB_MAX_OUTPUT_PORT_TYPE
+Pij <= Pij.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|comp_add:Addstep|GPGG:KS_213
+Gk => Gij.IN1
+Pk => Gij.IN0
+Pk => Pij.IN0
+Gj => Gij.IN1
+Pj => Pij.IN1
+Gij <= Gij.DB_MAX_OUTPUT_PORT_TYPE
+Pij <= Pij.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|comp_add:Addstep|GPGG:KS_214
+Gk => Gij.IN1
+Pk => Gij.IN0
+Pk => Pij.IN0
+Gj => Gij.IN1
+Pj => Pij.IN1
+Gij <= Gij.DB_MAX_OUTPUT_PORT_TYPE
+Pij <= Pij.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|comp_add:Addstep|GPGG:KS_215
+Gk => Gij.IN1
+Pk => Gij.IN0
+Pk => Pij.IN0
+Gj => Gij.IN1
+Pj => Pij.IN1
+Gij <= Gij.DB_MAX_OUTPUT_PORT_TYPE
+Pij <= Pij.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|comp_add:Addstep|GG:KS_34
+Gk => Gij.IN1
+Pk => Gij.IN0
+Gj => Gij.IN1
+Gij <= Gij.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|comp_add:Addstep|GG:KS_35
+Gk => Gij.IN1
+Pk => Gij.IN0
+Gj => Gij.IN1
+Gij <= Gij.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|comp_add:Addstep|GG:KS_36
+Gk => Gij.IN1
+Pk => Gij.IN0
+Gj => Gij.IN1
+Gij <= Gij.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|comp_add:Addstep|GG:KS_37
+Gk => Gij.IN1
+Pk => Gij.IN0
+Gj => Gij.IN1
+Gij <= Gij.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|comp_add:Addstep|GPGG:KS_38
+Gk => Gij.IN1
+Pk => Gij.IN0
+Pk => Pij.IN0
+Gj => Gij.IN1
+Pj => Pij.IN1
+Gij <= Gij.DB_MAX_OUTPUT_PORT_TYPE
+Pij <= Pij.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|comp_add:Addstep|GPGG:KS_39
+Gk => Gij.IN1
+Pk => Gij.IN0
+Pk => Pij.IN0
+Gj => Gij.IN1
+Pj => Pij.IN1
+Gij <= Gij.DB_MAX_OUTPUT_PORT_TYPE
+Pij <= Pij.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|comp_add:Addstep|GPGG:KS_310
+Gk => Gij.IN1
+Pk => Gij.IN0
+Pk => Pij.IN0
+Gj => Gij.IN1
+Pj => Pij.IN1
+Gij <= Gij.DB_MAX_OUTPUT_PORT_TYPE
+Pij <= Pij.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|comp_add:Addstep|GPGG:KS_311
+Gk => Gij.IN1
+Pk => Gij.IN0
+Pk => Pij.IN0
+Gj => Gij.IN1
+Pj => Pij.IN1
+Gij <= Gij.DB_MAX_OUTPUT_PORT_TYPE
+Pij <= Pij.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|comp_add:Addstep|GPGG:KS_312
+Gk => Gij.IN1
+Pk => Gij.IN0
+Pk => Pij.IN0
+Gj => Gij.IN1
+Pj => Pij.IN1
+Gij <= Gij.DB_MAX_OUTPUT_PORT_TYPE
+Pij <= Pij.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|comp_add:Addstep|GPGG:KS_313
+Gk => Gij.IN1
+Pk => Gij.IN0
+Pk => Pij.IN0
+Gj => Gij.IN1
+Pj => Pij.IN1
+Gij <= Gij.DB_MAX_OUTPUT_PORT_TYPE
+Pij <= Pij.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|comp_add:Addstep|GPGG:KS_314
+Gk => Gij.IN1
+Pk => Gij.IN0
+Pk => Pij.IN0
+Gj => Gij.IN1
+Pj => Pij.IN1
+Gij <= Gij.DB_MAX_OUTPUT_PORT_TYPE
+Pij <= Pij.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|comp_add:Addstep|GPGG:KS_315
+Gk => Gij.IN1
+Pk => Gij.IN0
+Pk => Pij.IN0
+Gj => Gij.IN1
+Pj => Pij.IN1
+Gij <= Gij.DB_MAX_OUTPUT_PORT_TYPE
+Pij <= Pij.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|comp_add:Addstep|GG:KS_48
+Gk => Gij.IN1
+Pk => Gij.IN0
+Gj => Gij.IN1
+Gij <= Gij.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|comp_add:Addstep|GG:KS_49
+Gk => Gij.IN1
+Pk => Gij.IN0
+Gj => Gij.IN1
+Gij <= Gij.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|comp_add:Addstep|GG:KS_410
+Gk => Gij.IN1
+Pk => Gij.IN0
+Gj => Gij.IN1
+Gij <= Gij.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|comp_add:Addstep|GG:KS_411
+Gk => Gij.IN1
+Pk => Gij.IN0
+Gj => Gij.IN1
+Gij <= Gij.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|comp_add:Addstep|GG:KS_412
+Gk => Gij.IN1
+Pk => Gij.IN0
+Gj => Gij.IN1
+Gij <= Gij.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|comp_add:Addstep|GG:KS_413
+Gk => Gij.IN1
+Pk => Gij.IN0
+Gj => Gij.IN1
+Gij <= Gij.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|comp_add:Addstep|GG:KS_414
+Gk => Gij.IN1
+Pk => Gij.IN0
+Gj => Gij.IN1
+Gij <= Gij.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|comp_add:Addstep|GG:KS_415
+Gk => Gij.IN1
+Pk => Gij.IN0
+Gj => Gij.IN1
+Gij <= Gij.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|comp_add:Substep
+X[1] => G[1].IN0
+X[1] => P[1].IN0
+X[2] => G[2].IN0
+X[2] => P[2].IN0
+X[3] => G[3].IN0
+X[3] => P[3].IN0
+X[4] => G[4].IN0
+X[4] => P[4].IN0
+X[5] => G[5].IN0
+X[5] => P[5].IN0
+X[6] => G[6].IN0
+X[6] => P[6].IN0
+X[7] => G[7].IN0
+X[7] => P[7].IN0
+X[8] => G[8].IN0
+X[8] => P[8].IN0
+X[9] => G[9].IN0
+X[9] => P[9].IN0
+X[10] => G[10].IN0
+X[10] => P[10].IN0
+X[11] => G[11].IN0
+X[11] => P[11].IN0
+X[12] => G[12].IN0
+X[12] => P[12].IN0
+X[13] => G[13].IN0
+X[13] => P[13].IN0
+X[14] => G[14].IN0
+X[14] => P[14].IN0
+X[15] => G[15].IN0
+X[15] => P[15].IN0
+X[16] => G[16].IN0
+X[16] => P[16].IN0
+Y[1] => G[1].IN1
+Y[1] => P[1].IN1
+Y[2] => G[2].IN1
+Y[2] => P[2].IN1
+Y[3] => G[3].IN1
+Y[3] => P[3].IN1
+Y[4] => G[4].IN1
+Y[4] => P[4].IN1
+Y[5] => G[5].IN1
+Y[5] => P[5].IN1
+Y[6] => G[6].IN1
+Y[6] => P[6].IN1
+Y[7] => G[7].IN1
+Y[7] => P[7].IN1
+Y[8] => G[8].IN1
+Y[8] => P[8].IN1
+Y[9] => G[9].IN1
+Y[9] => P[9].IN1
+Y[10] => G[10].IN1
+Y[10] => P[10].IN1
+Y[11] => G[11].IN1
+Y[11] => P[11].IN1
+Y[12] => G[12].IN1
+Y[12] => P[12].IN1
+Y[13] => G[13].IN1
+Y[13] => P[13].IN1
+Y[14] => G[14].IN1
+Y[14] => P[14].IN1
+Y[15] => G[15].IN1
+Y[15] => P[15].IN1
+Y[16] => G[16].IN1
+Y[16] => P[16].IN1
+O[0] <= P[1].DB_MAX_OUTPUT_PORT_TYPE
+O[1] <= O.DB_MAX_OUTPUT_PORT_TYPE
+O[2] <= O.DB_MAX_OUTPUT_PORT_TYPE
+O[3] <= O.DB_MAX_OUTPUT_PORT_TYPE
+O[4] <= O.DB_MAX_OUTPUT_PORT_TYPE
+O[5] <= O.DB_MAX_OUTPUT_PORT_TYPE
+O[6] <= O.DB_MAX_OUTPUT_PORT_TYPE
+O[7] <= O.DB_MAX_OUTPUT_PORT_TYPE
+O[8] <= O.DB_MAX_OUTPUT_PORT_TYPE
+O[9] <= O.DB_MAX_OUTPUT_PORT_TYPE
+O[10] <= O.DB_MAX_OUTPUT_PORT_TYPE
+O[11] <= O.DB_MAX_OUTPUT_PORT_TYPE
+O[12] <= O.DB_MAX_OUTPUT_PORT_TYPE
+O[13] <= O.DB_MAX_OUTPUT_PORT_TYPE
+O[14] <= O.DB_MAX_OUTPUT_PORT_TYPE
+O[15] <= O.DB_MAX_OUTPUT_PORT_TYPE
+Carryout <= Carryout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|comp_add:Substep|GG:KS_11
+Gk => Gij.IN1
+Pk => Gij.IN0
+Gj => Gij.IN1
+Gij <= Gij.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|comp_add:Substep|GPGG:KS_12
+Gk => Gij.IN1
+Pk => Gij.IN0
+Pk => Pij.IN0
+Gj => Gij.IN1
+Pj => Pij.IN1
+Gij <= Gij.DB_MAX_OUTPUT_PORT_TYPE
+Pij <= Pij.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|comp_add:Substep|GPGG:KS_13
+Gk => Gij.IN1
+Pk => Gij.IN0
+Pk => Pij.IN0
+Gj => Gij.IN1
+Pj => Pij.IN1
+Gij <= Gij.DB_MAX_OUTPUT_PORT_TYPE
+Pij <= Pij.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|comp_add:Substep|GPGG:KS_14
+Gk => Gij.IN1
+Pk => Gij.IN0
+Pk => Pij.IN0
+Gj => Gij.IN1
+Pj => Pij.IN1
+Gij <= Gij.DB_MAX_OUTPUT_PORT_TYPE
+Pij <= Pij.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|comp_add:Substep|GPGG:KS_15
+Gk => Gij.IN1
+Pk => Gij.IN0
+Pk => Pij.IN0
+Gj => Gij.IN1
+Pj => Pij.IN1
+Gij <= Gij.DB_MAX_OUTPUT_PORT_TYPE
+Pij <= Pij.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|comp_add:Substep|GPGG:KS_16
+Gk => Gij.IN1
+Pk => Gij.IN0
+Pk => Pij.IN0
+Gj => Gij.IN1
+Pj => Pij.IN1
+Gij <= Gij.DB_MAX_OUTPUT_PORT_TYPE
+Pij <= Pij.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|comp_add:Substep|GPGG:KS_17
+Gk => Gij.IN1
+Pk => Gij.IN0
+Pk => Pij.IN0
+Gj => Gij.IN1
+Pj => Pij.IN1
+Gij <= Gij.DB_MAX_OUTPUT_PORT_TYPE
+Pij <= Pij.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|comp_add:Substep|GPGG:KS_18
+Gk => Gij.IN1
+Pk => Gij.IN0
+Pk => Pij.IN0
+Gj => Gij.IN1
+Pj => Pij.IN1
+Gij <= Gij.DB_MAX_OUTPUT_PORT_TYPE
+Pij <= Pij.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|comp_add:Substep|GPGG:KS_19
+Gk => Gij.IN1
+Pk => Gij.IN0
+Pk => Pij.IN0
+Gj => Gij.IN1
+Pj => Pij.IN1
+Gij <= Gij.DB_MAX_OUTPUT_PORT_TYPE
+Pij <= Pij.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|comp_add:Substep|GPGG:KS_110
+Gk => Gij.IN1
+Pk => Gij.IN0
+Pk => Pij.IN0
+Gj => Gij.IN1
+Pj => Pij.IN1
+Gij <= Gij.DB_MAX_OUTPUT_PORT_TYPE
+Pij <= Pij.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|comp_add:Substep|GPGG:KS_111
+Gk => Gij.IN1
+Pk => Gij.IN0
+Pk => Pij.IN0
+Gj => Gij.IN1
+Pj => Pij.IN1
+Gij <= Gij.DB_MAX_OUTPUT_PORT_TYPE
+Pij <= Pij.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|comp_add:Substep|GPGG:KS_112
+Gk => Gij.IN1
+Pk => Gij.IN0
+Pk => Pij.IN0
+Gj => Gij.IN1
+Pj => Pij.IN1
+Gij <= Gij.DB_MAX_OUTPUT_PORT_TYPE
+Pij <= Pij.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|comp_add:Substep|GPGG:KS_113
+Gk => Gij.IN1
+Pk => Gij.IN0
+Pk => Pij.IN0
+Gj => Gij.IN1
+Pj => Pij.IN1
+Gij <= Gij.DB_MAX_OUTPUT_PORT_TYPE
+Pij <= Pij.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|comp_add:Substep|GPGG:KS_114
+Gk => Gij.IN1
+Pk => Gij.IN0
+Pk => Pij.IN0
+Gj => Gij.IN1
+Pj => Pij.IN1
+Gij <= Gij.DB_MAX_OUTPUT_PORT_TYPE
+Pij <= Pij.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|comp_add:Substep|GPGG:KS_115
+Gk => Gij.IN1
+Pk => Gij.IN0
+Pk => Pij.IN0
+Gj => Gij.IN1
+Pj => Pij.IN1
+Gij <= Gij.DB_MAX_OUTPUT_PORT_TYPE
+Pij <= Pij.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|comp_add:Substep|GG:KS_22
+Gk => Gij.IN1
+Pk => Gij.IN0
+Gj => Gij.IN1
+Gij <= Gij.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|comp_add:Substep|GG:KS_23
+Gk => Gij.IN1
+Pk => Gij.IN0
+Gj => Gij.IN1
+Gij <= Gij.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|comp_add:Substep|GPGG:KS_24
+Gk => Gij.IN1
+Pk => Gij.IN0
+Pk => Pij.IN0
+Gj => Gij.IN1
+Pj => Pij.IN1
+Gij <= Gij.DB_MAX_OUTPUT_PORT_TYPE
+Pij <= Pij.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|comp_add:Substep|GPGG:KS_25
+Gk => Gij.IN1
+Pk => Gij.IN0
+Pk => Pij.IN0
+Gj => Gij.IN1
+Pj => Pij.IN1
+Gij <= Gij.DB_MAX_OUTPUT_PORT_TYPE
+Pij <= Pij.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|comp_add:Substep|GPGG:KS_26
+Gk => Gij.IN1
+Pk => Gij.IN0
+Pk => Pij.IN0
+Gj => Gij.IN1
+Pj => Pij.IN1
+Gij <= Gij.DB_MAX_OUTPUT_PORT_TYPE
+Pij <= Pij.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|comp_add:Substep|GPGG:KS_27
+Gk => Gij.IN1
+Pk => Gij.IN0
+Pk => Pij.IN0
+Gj => Gij.IN1
+Pj => Pij.IN1
+Gij <= Gij.DB_MAX_OUTPUT_PORT_TYPE
+Pij <= Pij.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|comp_add:Substep|GPGG:KS_28
+Gk => Gij.IN1
+Pk => Gij.IN0
+Pk => Pij.IN0
+Gj => Gij.IN1
+Pj => Pij.IN1
+Gij <= Gij.DB_MAX_OUTPUT_PORT_TYPE
+Pij <= Pij.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|comp_add:Substep|GPGG:KS_29
+Gk => Gij.IN1
+Pk => Gij.IN0
+Pk => Pij.IN0
+Gj => Gij.IN1
+Pj => Pij.IN1
+Gij <= Gij.DB_MAX_OUTPUT_PORT_TYPE
+Pij <= Pij.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|comp_add:Substep|GPGG:KS_210
+Gk => Gij.IN1
+Pk => Gij.IN0
+Pk => Pij.IN0
+Gj => Gij.IN1
+Pj => Pij.IN1
+Gij <= Gij.DB_MAX_OUTPUT_PORT_TYPE
+Pij <= Pij.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|comp_add:Substep|GPGG:KS_211
+Gk => Gij.IN1
+Pk => Gij.IN0
+Pk => Pij.IN0
+Gj => Gij.IN1
+Pj => Pij.IN1
+Gij <= Gij.DB_MAX_OUTPUT_PORT_TYPE
+Pij <= Pij.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|comp_add:Substep|GPGG:KS_212
+Gk => Gij.IN1
+Pk => Gij.IN0
+Pk => Pij.IN0
+Gj => Gij.IN1
+Pj => Pij.IN1
+Gij <= Gij.DB_MAX_OUTPUT_PORT_TYPE
+Pij <= Pij.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|comp_add:Substep|GPGG:KS_213
+Gk => Gij.IN1
+Pk => Gij.IN0
+Pk => Pij.IN0
+Gj => Gij.IN1
+Pj => Pij.IN1
+Gij <= Gij.DB_MAX_OUTPUT_PORT_TYPE
+Pij <= Pij.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|comp_add:Substep|GPGG:KS_214
+Gk => Gij.IN1
+Pk => Gij.IN0
+Pk => Pij.IN0
+Gj => Gij.IN1
+Pj => Pij.IN1
+Gij <= Gij.DB_MAX_OUTPUT_PORT_TYPE
+Pij <= Pij.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|comp_add:Substep|GPGG:KS_215
+Gk => Gij.IN1
+Pk => Gij.IN0
+Pk => Pij.IN0
+Gj => Gij.IN1
+Pj => Pij.IN1
+Gij <= Gij.DB_MAX_OUTPUT_PORT_TYPE
+Pij <= Pij.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|comp_add:Substep|GG:KS_34
+Gk => Gij.IN1
+Pk => Gij.IN0
+Gj => Gij.IN1
+Gij <= Gij.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|comp_add:Substep|GG:KS_35
+Gk => Gij.IN1
+Pk => Gij.IN0
+Gj => Gij.IN1
+Gij <= Gij.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|comp_add:Substep|GG:KS_36
+Gk => Gij.IN1
+Pk => Gij.IN0
+Gj => Gij.IN1
+Gij <= Gij.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|comp_add:Substep|GG:KS_37
+Gk => Gij.IN1
+Pk => Gij.IN0
+Gj => Gij.IN1
+Gij <= Gij.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|comp_add:Substep|GPGG:KS_38
+Gk => Gij.IN1
+Pk => Gij.IN0
+Pk => Pij.IN0
+Gj => Gij.IN1
+Pj => Pij.IN1
+Gij <= Gij.DB_MAX_OUTPUT_PORT_TYPE
+Pij <= Pij.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|comp_add:Substep|GPGG:KS_39
+Gk => Gij.IN1
+Pk => Gij.IN0
+Pk => Pij.IN0
+Gj => Gij.IN1
+Pj => Pij.IN1
+Gij <= Gij.DB_MAX_OUTPUT_PORT_TYPE
+Pij <= Pij.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|comp_add:Substep|GPGG:KS_310
+Gk => Gij.IN1
+Pk => Gij.IN0
+Pk => Pij.IN0
+Gj => Gij.IN1
+Pj => Pij.IN1
+Gij <= Gij.DB_MAX_OUTPUT_PORT_TYPE
+Pij <= Pij.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|comp_add:Substep|GPGG:KS_311
+Gk => Gij.IN1
+Pk => Gij.IN0
+Pk => Pij.IN0
+Gj => Gij.IN1
+Pj => Pij.IN1
+Gij <= Gij.DB_MAX_OUTPUT_PORT_TYPE
+Pij <= Pij.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|comp_add:Substep|GPGG:KS_312
+Gk => Gij.IN1
+Pk => Gij.IN0
+Pk => Pij.IN0
+Gj => Gij.IN1
+Pj => Pij.IN1
+Gij <= Gij.DB_MAX_OUTPUT_PORT_TYPE
+Pij <= Pij.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|comp_add:Substep|GPGG:KS_313
+Gk => Gij.IN1
+Pk => Gij.IN0
+Pk => Pij.IN0
+Gj => Gij.IN1
+Pj => Pij.IN1
+Gij <= Gij.DB_MAX_OUTPUT_PORT_TYPE
+Pij <= Pij.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|comp_add:Substep|GPGG:KS_314
+Gk => Gij.IN1
+Pk => Gij.IN0
+Pk => Pij.IN0
+Gj => Gij.IN1
+Pj => Pij.IN1
+Gij <= Gij.DB_MAX_OUTPUT_PORT_TYPE
+Pij <= Pij.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|comp_add:Substep|GPGG:KS_315
+Gk => Gij.IN1
+Pk => Gij.IN0
+Pk => Pij.IN0
+Gj => Gij.IN1
+Pj => Pij.IN1
+Gij <= Gij.DB_MAX_OUTPUT_PORT_TYPE
+Pij <= Pij.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|comp_add:Substep|GG:KS_48
+Gk => Gij.IN1
+Pk => Gij.IN0
+Gj => Gij.IN1
+Gij <= Gij.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|comp_add:Substep|GG:KS_49
+Gk => Gij.IN1
+Pk => Gij.IN0
+Gj => Gij.IN1
+Gij <= Gij.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|comp_add:Substep|GG:KS_410
+Gk => Gij.IN1
+Pk => Gij.IN0
+Gj => Gij.IN1
+Gij <= Gij.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|comp_add:Substep|GG:KS_411
+Gk => Gij.IN1
+Pk => Gij.IN0
+Gj => Gij.IN1
+Gij <= Gij.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|comp_add:Substep|GG:KS_412
+Gk => Gij.IN1
+Pk => Gij.IN0
+Gj => Gij.IN1
+Gij <= Gij.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|comp_add:Substep|GG:KS_413
+Gk => Gij.IN1
+Pk => Gij.IN0
+Gj => Gij.IN1
+Gij <= Gij.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|comp_add:Substep|GG:KS_414
+Gk => Gij.IN1
+Pk => Gij.IN0
+Gj => Gij.IN1
+Gij <= Gij.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|comp_add:Substep|GG:KS_415
+Gk => Gij.IN1
+Pk => Gij.IN0
+Gj => Gij.IN1
+Gij <= Gij.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|comp_nand:Nstep
+X[0] => O.IN0
+X[1] => O.IN0
+X[2] => O.IN0
+X[3] => O.IN0
+X[4] => O.IN0
+X[5] => O.IN0
+X[6] => O.IN0
+X[7] => O.IN0
+X[8] => O.IN0
+X[9] => O.IN0
+X[10] => O.IN0
+X[11] => O.IN0
+X[12] => O.IN0
+X[13] => O.IN0
+X[14] => O.IN0
+X[15] => O.IN0
+Y[0] => O.IN1
+Y[1] => O.IN1
+Y[2] => O.IN1
+Y[3] => O.IN1
+Y[4] => O.IN1
+Y[5] => O.IN1
+Y[6] => O.IN1
+Y[7] => O.IN1
+Y[8] => O.IN1
+Y[9] => O.IN1
+Y[10] => O.IN1
+Y[11] => O.IN1
+Y[12] => O.IN1
+Y[13] => O.IN1
+Y[14] => O.IN1
+Y[15] => O.IN1
+O[0] <= O.DB_MAX_OUTPUT_PORT_TYPE
+O[1] <= O.DB_MAX_OUTPUT_PORT_TYPE
+O[2] <= O.DB_MAX_OUTPUT_PORT_TYPE
+O[3] <= O.DB_MAX_OUTPUT_PORT_TYPE
+O[4] <= O.DB_MAX_OUTPUT_PORT_TYPE
+O[5] <= O.DB_MAX_OUTPUT_PORT_TYPE
+O[6] <= O.DB_MAX_OUTPUT_PORT_TYPE
+O[7] <= O.DB_MAX_OUTPUT_PORT_TYPE
+O[8] <= O.DB_MAX_OUTPUT_PORT_TYPE
+O[9] <= O.DB_MAX_OUTPUT_PORT_TYPE
+O[10] <= O.DB_MAX_OUTPUT_PORT_TYPE
+O[11] <= O.DB_MAX_OUTPUT_PORT_TYPE
+O[12] <= O.DB_MAX_OUTPUT_PORT_TYPE
+O[13] <= O.DB_MAX_OUTPUT_PORT_TYPE
+O[14] <= O.DB_MAX_OUTPUT_PORT_TYPE
+O[15] <= O.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|comp_xor:Xstep
+X[0] => O.IN0
+X[1] => O.IN0
+X[2] => O.IN0
+X[3] => O.IN0
+X[4] => O.IN0
+X[5] => O.IN0
+X[6] => O.IN0
+X[7] => O.IN0
+X[8] => O.IN0
+X[9] => O.IN0
+X[10] => O.IN0
+X[11] => O.IN0
+X[12] => O.IN0
+X[13] => O.IN0
+X[14] => O.IN0
+X[15] => O.IN0
+Y[0] => O.IN1
+Y[1] => O.IN1
+Y[2] => O.IN1
+Y[3] => O.IN1
+Y[4] => O.IN1
+Y[5] => O.IN1
+Y[6] => O.IN1
+Y[7] => O.IN1
+Y[8] => O.IN1
+Y[9] => O.IN1
+Y[10] => O.IN1
+Y[11] => O.IN1
+Y[12] => O.IN1
+Y[13] => O.IN1
+Y[14] => O.IN1
+Y[15] => O.IN1
+O[0] <= O.DB_MAX_OUTPUT_PORT_TYPE
+O[1] <= O.DB_MAX_OUTPUT_PORT_TYPE
+O[2] <= O.DB_MAX_OUTPUT_PORT_TYPE
+O[3] <= O.DB_MAX_OUTPUT_PORT_TYPE
+O[4] <= O.DB_MAX_OUTPUT_PORT_TYPE
+O[5] <= O.DB_MAX_OUTPUT_PORT_TYPE
+O[6] <= O.DB_MAX_OUTPUT_PORT_TYPE
+O[7] <= O.DB_MAX_OUTPUT_PORT_TYPE
+O[8] <= O.DB_MAX_OUTPUT_PORT_TYPE
+O[9] <= O.DB_MAX_OUTPUT_PORT_TYPE
+O[10] <= O.DB_MAX_OUTPUT_PORT_TYPE
+O[11] <= O.DB_MAX_OUTPUT_PORT_TYPE
+O[12] <= O.DB_MAX_OUTPUT_PORT_TYPE
+O[13] <= O.DB_MAX_OUTPUT_PORT_TYPE
+O[14] <= O.DB_MAX_OUTPUT_PORT_TYPE
+O[15] <= O.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|mux:Mstep
+X1[0] => Y.DATAB
+X1[1] => Y.DATAB
+X1[2] => Y.DATAB
+X1[3] => Y.DATAB
+X1[4] => Y.DATAB
+X1[5] => Y.DATAB
+X1[6] => Y.DATAB
+X1[7] => Y.DATAB
+X1[8] => Y.DATAB
+X1[9] => Y.DATAB
+X1[10] => Y.DATAB
+X1[11] => Y.DATAB
+X1[12] => Y.DATAB
+X1[13] => Y.DATAB
+X1[14] => Y.DATAB
+X1[15] => Y.DATAB
+X2[0] => Y.DATAB
+X2[1] => Y.DATAB
+X2[2] => Y.DATAB
+X2[3] => Y.DATAB
+X2[4] => Y.DATAB
+X2[5] => Y.DATAB
+X2[6] => Y.DATAB
+X2[7] => Y.DATAB
+X2[8] => Y.DATAB
+X2[9] => Y.DATAB
+X2[10] => Y.DATAB
+X2[11] => Y.DATAB
+X2[12] => Y.DATAB
+X2[13] => Y.DATAB
+X2[14] => Y.DATAB
+X2[15] => Y.DATAB
+X3[0] => Y.DATAB
+X3[1] => Y.DATAB
+X3[2] => Y.DATAB
+X3[3] => Y.DATAB
+X3[4] => Y.DATAB
+X3[5] => Y.DATAB
+X3[6] => Y.DATAB
+X3[7] => Y.DATAB
+X3[8] => Y.DATAB
+X3[9] => Y.DATAB
+X3[10] => Y.DATAB
+X3[11] => Y.DATAB
+X3[12] => Y.DATAB
+X3[13] => Y.DATAB
+X3[14] => Y.DATAB
+X3[15] => Y.DATAB
+X4[0] => Y.DATAA
+X4[1] => Y.DATAA
+X4[2] => Y.DATAA
+X4[3] => Y.DATAA
+X4[4] => Y.DATAA
+X4[5] => Y.DATAA
+X4[6] => Y.DATAA
+X4[7] => Y.DATAA
+X4[8] => Y.DATAA
+X4[9] => Y.DATAA
+X4[10] => Y.DATAA
+X4[11] => Y.DATAA
+X4[12] => Y.DATAA
+X4[13] => Y.DATAA
+X4[14] => Y.DATAA
+X4[15] => Y.DATAA
+Sel1 => process_0.IN0
+Sel1 => process_0.IN0
+Sel1 => process_0.IN0
+Sel0 => process_0.IN1
+Sel0 => process_0.IN1
+Sel0 => process_0.IN1
+Y[0] <> Y[0]
+Y[1] <> Y[1]
+Y[2] <> Y[2]
+Y[3] <> Y[3]
+Y[4] <> Y[4]
+Y[5] <> Y[5]
+Y[6] <> Y[6]
+Y[7] <> Y[7]
+Y[8] <> Y[8]
+Y[9] <> Y[9]
+Y[10] <> Y[10]
+Y[11] <> Y[11]
+Y[12] <> Y[12]
+Y[13] <> Y[13]
+Y[14] <> Y[14]
+Y[15] <> Y[15]
+
+
+|ALU|mux2:M2step
+X1 => Y.DATAA
+X2 => Y.DATAB
+X3 => Y.DATAA
+X4 => Y.DATAB
+Sel1 => Y.OUTPUTSELECT
+Sel0 => Y.OUTPUTSELECT
+Sel0 => Y.OUTPUTSELECT
+Y <> Y
+
+
+|ALU|comp_zero:Zstep
+X[0] => Equal0.IN31
+X[1] => Equal0.IN30
+X[2] => Equal0.IN29
+X[3] => Equal0.IN28
+X[4] => Equal0.IN27
+X[5] => Equal0.IN26
+X[6] => Equal0.IN25
+X[7] => Equal0.IN24
+X[8] => Equal0.IN23
+X[9] => Equal0.IN22
+X[10] => Equal0.IN21
+X[11] => Equal0.IN20
+X[12] => Equal0.IN19
+X[13] => Equal0.IN18
+X[14] => Equal0.IN17
+X[15] => Equal0.IN16
+Y <> Y
+
+

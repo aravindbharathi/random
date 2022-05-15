@@ -1,0 +1,82 @@
+Meeting Notes
+
+#1 - 21/4/20
+Now that the ITC has given us an update (finally) on how ITSP will work this year, we need to decide what we will be doing. At the moment, we fall under category 2A if we decide to go ahead as our current project does require hardware testing and I'm not very sure if we can run software simulations
+After discussing this at length. We agreed that a whole 3D implementation, as was planned, will take more than the given 10 days hardware time. 
+We could trim down to more or less, a 2D implementation where a pen is used to scribble on a slate, the movement is captured and we will use neural networks for image recognition. Again we do require hardware testing, but this is the closest bet we have with our current project and I was honestly looking forward to that one. In this, we will be able to isolate the movement capture part and image recognition to a great extent and we can definitely complete the latter part in the next 2 weeks.
+Think of a new topic and fill out the abstract sheet again. We do need to refill the abstract form, but if we choose  (1), we will most likely be cutting some corners and not discarding it completely. We have 2.5 days to do this.
+Drop out of the project. Let's be honest, we don't have much at stake other than our own enthusiasm, pretty much everyone has withdrawn from their projects in these times.It wouldn't really be like a group task. So unless we are totally committed and actually want to do this, let's not move forward
+We have till the 22nd to make a decision. I would personally like to go ahead with (1) as the initial project idea was very interesting and even if we don't do it to that extent, we will be on a path to that.
+It's totally fine and acceptable if you choose to drop out. But maybe think again, try coming up with a new idea.
+Everyone agrees that they want to go ahead with the idea
+We understood that we have hardware restrictions as we wanted the pen itself to have all the sensors needed for detection. Prefer a mpu sensor(harsh said that it’s available) over image recognition.. I think image recognition will reduce the region where we could use the pen and would make the pen less practical.
+We decide to go ahead with the preliminary idea
+
+#2 - 21/5/20
+How do we want to go about converting the IMU readings to 2D image
+Certain things I feel we can confirm.
+We are implementing a Convolutional Neural Network. We are also avoiding Deep Learning algorithms.
+We will mostly be using a 9 axis sensor encompassing a 3 axis gyroscope, 3 axis accelerometer and 3 axis magnetometer.And the cost of the sensors we are using is around Rs.1000
+We realised since the conversion to an image is very complicated itself, we will first try to tackle that, after which if we have time we will try to learn NN, or else we'll use a repository
+Harsh suggests to divide the project into electrical , software and integration parts
+We kind of divided it into sensor modelling and feature extraction (Credits: SSP)
+By feature extraction we mean taking the readings from the imu and making a digital image from it which then we feed into the NN if we can manage the digital image creation then maybe we can try doing different NN. PNNs are mentioned in what we are reading
+Data set for training the NN? - MNIST - 28×28 pixel images (including 4 pixel thick borders)
+We will try to generate this type of image from our sensor
+Our original reference paper put the quaternions in a data set and directly printed the character
+But we want to do a little more
+So we decided we will print both the user writing, as well as the printed character
+But we aren't using any screen, so we retrace the user's movements only using the IMU
+We need to start benchmarking - It's basically just us reading papers, and filling up some parameters on an excel, so that later on we can pick what sensors/algo/NN we want to use. Now using the paper the person has read, they will input parameters in an excel sheet, stuff like sensors used, accuracy, NN used, feature extraction and estimation algorithm used as given in the paper. If it's not given then don’t put
+Splitting workload
+We agreeably split the work into Sensor Modelling - Pari and Aravind - and Feature Extraction - Aruja and Shashank
+We couldn't pinpoint where the work transitions, but roughly speaking we shall all read some papers similar to our project and as part of the Sensor Modelling part will consist of obtaining the readings and removing any noise present. While the Feature Extraction team will take these readings and form an image out of it
+Aravind will make the presentation for review meet 1
+
+#3 - 8/6/20
+So to model the sensor, we have got an overall idea about preprocessing, noise reduction and such. We haven't looked into papers specifically to benchmark yet but we have narrowed it down to a 9 axis sensor
+The gyroscope and accelerometer provide information about accelerations in all three directions and rotations around each axis. Gravity provides a background direction from the accelerometer, so we can do a pretty good job of tracking short term movements. However, in order to track the real position and orientation in space, the six-axis sensor is not quite there because small errors build up in each axis and over time these errors can add up to drift in the absolute direction. We can deal with this problem by adding one more absolute directional sensor – a 3-axis magnetometer. The extra magnetic field information allows the sensing algorithms to compensate for small drifts over much longer periods of time, so we can track the absolute change in position and orientation more accurately. 
+All relevant papers to benchmark on the google doc. We should split the papers among us
+and regarding why a 9 axis sensor over 6 axis (ie without compass) there are 2 links on the same doc. basically, to avoid noise (and thereby drift)
+Shashank will make the presentation for review meet 2
+Shashank and Aruja both are watching a series of videos which step by step teaches them how to do computations on the values we get from the imu sensor. Also teaches us to build a live simulation of the sensor and the code aspects of it and will go through the papers uploaded.
+Future plans
+- Attach more code next time
+- Finalise sensor models
+- check sensor data sheets
+- finishing the code in one week may be too ideal
+- sensors will have big errors so we need some nice code for a noise removal
+- be able to identify a simple "1" by next meet
+
+#4 - 16/6/20
+Found a few models for removing noise
+  For high frequency vibrations, we settled on using a moving average filter
+  For gravitational acceleration, we ditched the plan to use a Kalman filter due to the complexity involved in it. A high pass filter will be used
+The need for a reduction in dimensions were discussed as it was correctly pointed out the writing in itself can only take place in 2 dimensions but the orientation of the pen can be held at infinitely different angles. After a detailed discussion, we understood that a constraint must be placed due to the lack of a magnetometer, that the z axis should be parallel to the ground. Pari will work on this
+The image generation code gave non satisfactory results, which was later attributed to a problem in the array indexing. This will be fixed
+Aruja will work on a main script to execute the whole loop later this week.
+All the data in the google drive will be migrated to the GitHub repository to maintain uniformity and consistency.
+The neural network code didn't run to completion. The error will be debugged
+
+#5 - 23/6/20
+MA filter, high pass filters are ready
+Rotational (transformation) matrix is in the works
+Wrote main script
+Image generation code needs refining
+Sensor acquisition code has sourced from a github repo
+NN code is ready and working
+I have uploaded the updated flowcharts on the Github repo
+We need to discuss and agree on how to fill those docs
+I believe you have added text in the inspiration for our idea section. I have filled up everything else other than the progress, result and learning values
+We can progress and result after the meeting today. Can someone fill up learning values in the final documentation (also don't add any more references, and licenses, I have written everything in accordance to reference guidelines)
+Frequency of signal? Low frequency results in less accurate readings
+High frequency results in high computational load even though it exponentially increases accuracy of readings
+
+#6 - 27/6/20
+A final discussion on who is presenting and if there is a further need for documentation
+The GitHub repository has been thoroughly gone through, the final documentation, two pager documentation and presentation were all completed and it was decided that Aravind will present
+Everyone has a good understanding on the work done by each member in the team, and will be able to cover if the presentation doesn't run as smooth as expected
+A complete MIL simulation was run live, and the results were satisfactory.
+An error in the LaTeX documentation was pointed out in the formula of the moving average filter, this will be rectified immediately
+Our mentor was updated about the happenings and we were given the green light
+We are good to go

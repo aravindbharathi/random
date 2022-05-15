@@ -1,0 +1,12 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+use IEEE.STD_LOGIC_ARITH.ALL;
+use IEEE.STD_LOGIC_UNSIGNED.ALL;
+
+entity comp_add is
+	port
+		(
+		X, Y: out STD_LOGIC_VECTOR(15 downto 0);
+		O: out STD_LOGIC_VECTOR(15 downto 0) 
+		);
+end comp_add;
